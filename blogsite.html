@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Page | Blog Website</title>
+    <title>Blog Website</title>
     <link rel="stylesheet" href="style2.css"/>
     <script src="https://kit.fontawesome.com/7a4b62b0a4.js"crossorigin="anonymous"></script>
     </head>
@@ -12,43 +12,69 @@
   <body>
     <header>
       <nav>
+        <a href="restaurantsite.html">
         <img src="photos/logo.png">
+        </a>
         <ul>
           <link>
-          <a href="restaurantsite.html">
+          <a href="#health">
           <li>Home</li>
           </a>
-          </link>
-          <link>
-          <a href="blogsite.html#text">
+          <a href="#postsec">
           <li>Posts</li>
           </a>
-          </link>
+          <a href="#ourstaff">
+          <li>About Us</li>
+          </a>
+          <a>
           <li>
             <i class="fa fa-instagram"></i>
           </li>
+          </a>
+          <a>
           <li>
             <i class="fa fa-twitter"></i>
           </li>
+          </a>
+          <a>
           <li>
             <i class="fab fa-linkedin"></i>
           </li>
+          </a>
         </ul>
       </nav>
     </header>
     <main>
       <section id="hero">
         <div class="hero_content">
-          <h1>Be healthy eat healthy</h1>
+          <h1 id="health">Be healthy eat healthy</h1>
           <h4>Why is healthy food so important?</h4>
           <h5>Healthy food is considered healthy primarily because it provides essential nutrients that support various bodily functions and promote overall well-being. Here are some key reasons why healthy food is beneficial:Nutrient Density: Healthy foods such as fruits, vegetables, lean proteins, whole grains, and nuts are typically rich in essential nutrients like vitamins, minerals, antioxidants, and fiber. These nutrients are vital for the proper functioning of the body, including metabolism, immune function, and tissue repair.
           Supporting Body Functions: A balanced diet with healthy foods ensures that your body gets the right combination of nutrients to perform its daily tasks efficiently. For example, calcium and vitamin D are crucial for bone health, while omega-3 fatty acids support heart health.
-          Disease Prevention: Certain healthy foods are associated with a reduced risk of chronic diseases such as heart disease, diabetes, and certain cancers. For instance, a diet rich in fruits and vegetables can help lower blood pressure and reduce the risk of heart disease.
+          Disease Prevention: Certain healthy foods are associated with a reduced risk of chronic diseases such as heart disease, diabetes, and certain cancers.<span id="dots">...</span><span id="more">  For instance, a diet rich in fruits and vegetables can help lower blood pressure and reduce the risk of heart disease.
           Weight Management: Healthy foods are often lower in calories and saturated fats compared to processed and unhealthy foods. Eating a diet rich in fruits, vegetables, and lean proteins can help maintain a healthy weight and reduce the risk of obesity.
           Digestive Health: Foods high in fiber, such as whole grains, fruits, and vegetables, promote healthy digestion and prevent constipation. Fiber also helps regulate blood sugar levels and may contribute to a lower risk of developing type 2 diabetes.
           Mental Health: Some nutrients found in healthy foods, such as omega-3 fatty acids and antioxidants, may have positive effects on mental health and cognitive function. A balanced diet can contribute to better mood and overall mental well-being.
           Energy Levels: Healthy foods provide a steady source of energy throughout the day. Complex carbohydrates found in whole grains and fruits, combined with proteins and fats, provide sustained energy without causing rapid spikes and crashes in blood sugar levels.</h5>
         </div>
+          <button onclick="myFunction()" id="myBtn" class="readmore"><h2>Read more</h2></button> 
+
+          <script>
+          function myFunction() {
+          var dots = document.getElementById("dots");
+          var moreText = document.getElementById("more");
+          var btnText = document.getElementById("myBtn");
+          if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more"; 
+          moreText.style.display = "none";
+          } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less"; 
+          moreText.style.display = "inline";
+            }
+          }
+        </script>
         <div class="hero_image">
           <img src="photos/eggs.jpg" alt="hero"/>
         </div>
@@ -66,7 +92,7 @@
       </div>
       <center>
       <div class="text">
-      <h3>
+      <h3 id="postsec">
       Healthy food that we make in our restaurants:
       </h3>
       </div>
@@ -111,8 +137,8 @@
       <div class="h-card">
         <div class="card_content">
           <h2>Our staff</h2>
-          <h3>
-            The team of our staff consists of people with experience. Our chefs work with effort and pleasure to prepare healthy meals and treats for customers, while our waiters make refreshing healthy juices and fruit salads. We also have young people in the team who attend high school and cooking school and are here on an internship that we pay them. So far, we have not had any complaints in terms of the quality of our products that we have given to customers. Normally, every beginning is difficult, including the beginning of storing the working staff as one, and it took time. Now as a restaurant and coffee shop owner, I am happy because I have irreplaceable staff.
+          <h3 id="ourstaff">
+            Our two buildings, the cafe and the restaurant, have many workers in various positions. Here I will exclusively talk about those on whom the quality of our products that we deliver or serve you depends. The staff I am referring to are waiters, bartenders, cooks, cleaners. in the kitchen, we have one main one who is similar to him and 2 or 3 young people who come from cooking and tourism schools for internships. With us, the same high school students can also work through the youth center during the weekend or during some holidays. All our workers are very young and that was one of the requirements when they were employed, for the reason that young people are more patient, more careful, and that is what is very important in this kind of work, especially when this kind of work has to do with healthy eating.So far, no one has complained about the dirty a table, a dirty cup, no shortage of sugar on the table or straws in the cup with pizza served with straws, people mostly complained about waiting a little for pizza or food because of the crowd, but you must know that at those moments they are working with the head chef and young people in the kitchen as well as with the head waiter. In those situations, we teach high school students who come to us for internships about what will await them later in this job.
           </h3>
           <div class="status">
           </div>
