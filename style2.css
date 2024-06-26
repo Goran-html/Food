@@ -43,9 +43,6 @@ nav ul li {
 nav ul li:hover {
   border-bottom: rgb(255, 251, 0) 2px solid;
 }
-nav i {
-  font-size: 2.5rem;
-}
 #ourstaff{
   font-size: 18px;
 }
@@ -64,6 +61,10 @@ nav i {
   border-radius: 1rem;
 }
 #more {display: none;}
+
+nav i {
+  font-size: 2.5rem;
+}
 main {
   max-width: 1200px;
   margin: 0 auto;
