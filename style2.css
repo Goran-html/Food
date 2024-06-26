@@ -46,6 +46,24 @@ nav ul li:hover {
 nav i {
   font-size: 2.5rem;
 }
+#ourstaff{
+  font-size: 18px;
+}
+.readmore{
+  float:right;
+  background-color: #04AA6D; 
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+#more {display: none;}
 main {
   max-width: 1200px;
   margin: 0 auto;
