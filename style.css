@@ -17,15 +17,30 @@ button:hover {
   opacity: 0.8;
   transition: 0.2s ease-in-out;
 }
+.navbar{
+  display: flex;
+  gap: 100px;
+  justify-content: right;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  gap: 2rem;
+  float: right;
+  padding-right: 120px;
+  background-color: white;
+}
+nav ul li {
+  font-size: 1.8rem;
+}
+nav ul li:hover {
+  border-bottom: rgb(0, 204, 0) 2px solid;
+}
 
 
 nav {
-  box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
   position: sticky;
   top: 0;
-  margin-bottom: 32px;
-  background: white;
-  padding: 10px;
   z-index: 50;
 }
 .navigation {
