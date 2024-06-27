@@ -68,6 +68,7 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  font-size:22px;
 }
 .tag {
   background-color: #149f39;
