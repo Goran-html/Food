@@ -41,7 +41,7 @@ nav ul li {
   font-size: 1.8rem;
 }
 nav ul li:hover {
-  border-bottom: rgb(255, 251, 0) 2px solid;
+  border-bottom: rgb(0, 204, 0) 2px solid;
 }
 #ourstaff{
   font-size: 18px;
@@ -51,14 +51,19 @@ nav ul li:hover {
   background-color: #04AA6D; 
   border: none;
   color: white;
-  padding: 15px 15px;
+  padding: 5px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 12px;
-  margin: 4px 2px;
+  font-size: 18px;
+  margin:9px 9px;
   cursor: pointer;
-  border-radius: 1rem;
+  transition-duration: 0.4s;
+}
+.readmore:hover{
+   background-color: white;
+   color:black;
+   border: 2px solid #04AA6D;
 }
 #more {display: none;}
 
