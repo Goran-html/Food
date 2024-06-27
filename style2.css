@@ -43,6 +43,10 @@ nav ul li {
 nav ul li:hover {
   border-bottom: rgb(0, 204, 0) 2px solid;
 }
+#bigtext{
+  font-size: 16px;
+  padding-bottom: 15px;
+}
 #ourstaff{
   font-size: 18px;
 }
@@ -66,7 +70,26 @@ nav ul li:hover {
    border: 2px solid #04AA6D;
 }
 #more {display: none;}
-
+.readmore2{
+  float:right;
+  background-color: #04AA6D; 
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin:9px 9px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.readmore2:hover{
+   background-color: white;
+   color:black;
+   border: 2px solid #04AA6D;
+}
+#more2 {display: none;}
 nav i {
   font-size: 2.5rem;
 }
